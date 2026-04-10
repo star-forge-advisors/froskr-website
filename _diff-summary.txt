@@ -1,0 +1,100 @@
+ index.html | 87 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 86 insertions(+), 1 deletion(-)
+diff --git a/index.html b/index.html
+index 9b30a03..6629972 100644
+--- a/index.html
++++ b/index.html
+@@ -4,7 +4,92 @@
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Froskr — Security &amp; Compliance | The Sentinel of Risks</title>
+-<meta name="description" content="Froskr delivers compliance-first managed security for regulated businesses. HIPAA, SOC 2, SEC rules built in. The sentinel watching your M365 environment around the clock.">
++<meta name="description" content="Compliance-first managed security for healthcare, legal, and financial practices. HIPAA, SOC 2, and SEC Reg S-P built in. Free M365 assessment.">
++<link rel="canonical" href="https://froskr.com/">
++<meta name="theme-color" content="#080E1F">
++<meta name="robots" content="index,follow,max-image-preview:large">
++<link rel="icon" type="image/svg+xml" href="/favicon.svg">
++<link rel="apple-touch-icon" href="/apple-touch-icon.png">
++<meta property="og:type" content="website">
++<meta property="og:url" content="https://froskr.com/">
++<meta property="og:site_name" content="Froskr">
++<meta property="og:title" content="Froskr — Security &amp; Compliance | The Sentinel of Risks">
++<meta property="og:description" content="Compliance-first managed security for healthcare, legal, and financial practices. HIPAA, SOC 2, and SEC Reg S-P built in. Free M365 assessment.">
++<meta property="og:image" content="https://froskr.com/og-image.png">
++<meta property="og:image:width" content="1200">
++<meta property="og:image:height" content="630">
++<meta property="og:image:alt" content="Froskr — compliance-first managed security for regulated practices">
++<meta property="og:locale" content="en_US">
++<meta name="twitter:card" content="summary_large_image">
++<meta name="twitter:title" content="Froskr — Security &amp; Compliance | The Sentinel of Risks">
++<meta name="twitter:description" content="Compliance-first managed security for healthcare, legal, and financial practices. HIPAA, SOC 2, and SEC Reg S-P built in.">
++<meta name="twitter:image" content="https://froskr.com/og-image.png">
++<script type="application/ld+json">
++{
++  "@context": "https://schema.org",
++  "@graph": [
++    {
++      "@type": "Organization",
++      "@id": "https://froskr.com/#organization",
++      "name": "Froskr",
++      "legalName": "Froskr LLC",
++      "url": "https://froskr.com/",
++      "logo": "https://froskr.com/og-image.png",
++      "image": "https://froskr.com/og-image.png",
++      "description": "Compliance-first managed security services provider (MSSP) for healthcare, legal, and financial practices.",
++      "email": "hello@froskr.com",
++      "areaServed": {"@type": "Country", "name": "United States"},
++      "knowsAbout": [
++        "HIPAA compliance",
++        "SOC 2",
++        "SEC Regulation S-P",
++        "Microsoft 365 security",
++        "Managed security services",
++        "Managed detection and response"
++      ],
++      "slogan": "The Sentinel of Risks"
++    },
++    {
++      "@type": "WebSite",
++      "@id": "https://froskr.com/#website",
++      "url": "https://froskr.com/",
++      "name": "Froskr",
++      "publisher": {"@id": "https://froskr.com/#organization"},
++      "inLanguage": "en-US"
++    },
++    {
++      "@type": "ProfessionalService",
++      "@id": "https://froskr.com/#service-healthcare",
++      "name": "HIPAA Compliance & Managed Security for Healthcare",
++      "serviceType": "Managed Security Services",
++      "provider": {"@id": "https://froskr.com/#organization"},
++      "areaServed": {"@type": "Country", "name": "United States"},
++      "audience": {"@type": "BusinessAudience", "audienceType": "Medical practices, dental offices, behavioral health"},
++      "description": "HIPAA-compliant managed security including Business Associate Agreement, annual risk assessment, breach notification SOP, audit trail reporting, and staff security awareness training."
++    },
++    {
++      "@type": "ProfessionalService",
++      "@id": "https://froskr.com/#service-legal",
++      "name": "Managed Security & Compliance for Legal Practices",
++      "serviceType": "Managed Security Services",
++      "provider": {"@id": "https://froskr.com/#organization"},
++      "areaServed": {"@type": "Country", "name": "United States"},
++      "audience": {"@type": "BusinessAudience", "audienceType": "Law firms, solo attorneys, boutique practices"},
++      "description": "Client data segregation, matter-based access control via Entra ID, automatic email encryption, documented data retention, and state bar cybersecurity compliance support."
++    },
++    {
++      "@type": "ProfessionalService",
++      "@id": "https://froskr.com/#service-financial",
++      "name": "SEC Regulation S-P Compliance for RIAs & Financial Advisors",
++      "serviceType": "Managed Security Services",
++      "provider": {"@id": "https://froskr.com/#organization"},
++      "areaServed": {"@type": "Country", "name": "United States"},
++      "audience": {"@type": "BusinessAudience", "audienceType": "RIAs, wealth advisors, tax professionals"},
++      "description": "SEC Regulation S-P readiness including written cybersecurity policies, incident response program, 30-day client breach notification procedures, annual vendor risk summary, and MFA enforcement audit."
++    }
++  ]
++}
++</script>
+ <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet">
+ <style>
+ :root{--midnight:#080E1F;--deep:#0C1425;--navy:#101B30;--slate:#162040;--blue:#4B8BF5;--blue-bright:#6BA3FF;--blue-glow:rgba(75,139,245,0.15);--teal:#34D9B4;--teal-glow:rgba(52,217,180,0.12);--gold:#C9A84C;--star:#E8DCC8;--white:#F0EDE6;--white-pure:#FFF;--g1:rgba(240,237,230,0.08);--g2:rgba(240,237,230,0.12);--g3:rgba(240,237,230,0.18);--g4:rgba(240,237,230,0.35);--g5:rgba(240,237,230,0.55);--g6:rgba(240,237,230,0.7);--green:#34D9B4;--fd:'Fraunces',Georgia,serif;--fb:'DM Sans',-apple-system,sans-serif;--r:12px;--rs:8px}
